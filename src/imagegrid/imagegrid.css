@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "WixMadeforTextRegular";
+    src: url("/Users/joshuaa/Downloads/Wix MadeFor Display");
+}
+
+.mobile {
+    width: 400px;
+    height: 400px;
+}
+
+.uxText {
+    font-family: "WixMadeforTextRegular";
+    display: block;
+}
+
+.intermediate {}
+
+.learnMore {
+    text-decoration-line: underline;
+}
+
+.group {
+    width: 30px;
+    height: 30px;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    width: 25px;
+}
+
+.textArea {
+    display: flex;
+    grid-template-rows: auto 0fr;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.skillDiv {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+}
+
+.learnMoreThings {
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
