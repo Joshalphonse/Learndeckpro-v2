@@ -13,17 +13,19 @@ export const Imagegrid: React.FC<ImagegridProps> = ({ className }) => {
         <div className={`${styles.root} ${className}`}>
             <img
                 className="mobile"
-                src="/Users/joshuaa/Dev/learndeckprov2/src/imagegrid/assets/mobile.png"
+                src="/Users/roba/Learndeckpro-v2/src/imagegrid/assets/mobile.png"
             />
-            <h1 className="uxText">UX in Mobile</h1>
-            <div className="textArea">
-                <div className="skillDiv">
-                    <img src={group} className="group" />
-                    <p className="intermediate">Intermediate</p>
-                </div>
-                <div className="learnMoreThings">
-                    <img src={arrow} className="arrow" />
-                    <p className="learnMore">Learn More</p>
-                </div></div></div>
+            <div className="textContainer">
+                <h1 className="uxText">UX in Mobile</h1>
+                <div className="textArea">
+                    <div className="skillDiv">
+                        <img src={group} className="group circleIcon" />
+                        <p className="intermediate">Intermediate</p>
+                    </div>
+                    <div className="learnMoreThings">
+                        <img src={arrow} className="arrow" />
+                        <p className="learnMore">Learn More</p>
+                    </div></div></div>
+        </div>
     );
 };
