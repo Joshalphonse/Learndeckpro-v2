@@ -1,6 +1,6 @@
 @font-face {
     font-family: "WixMadeforDisplayRegular";
-    src: url("/Users/roba/Learndeckpro-v2/src/Wix MadeFor Display/WixMadeforDisplayRegular.otf");
+    src: url("../Wix MadeFor Display/WixMadeforDisplayRegular.otf");
 }
 
 .mobile {
