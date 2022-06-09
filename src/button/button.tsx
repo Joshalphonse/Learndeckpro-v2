@@ -24,7 +24,7 @@ export const Button: React.FC<ButtonProps> = ({ className }) => {
   };
   return (
     <div className={`${styles.root} ${className}`}>
-      <div className="buttonDiv">
+      <div>
         <button
           onMouseOver={buttonMouseOverHandler}
           onMouseOut={buttonMouseOutHandler}
